@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Pacifico&family=Rubik+Doodle+Triangles&family=Single+Day&family=Teko:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Teko:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Pacifico&family=Teko:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Pacifico&family=Single+Day&family=Teko:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Practical 2</title>
+</head>
+
+<body>
+    <h1>The Power of Fruit: Adding Flavor and Nutrition to Your Sentences</h1>
+    <p>Have you ever wondered how to make your sentences more vibrant and engaging? Look no further than the colorful
+        world of fruit! Not only are fruits delicious and nutritious, but they can also add a dash of flavor to your
+        writing. In this article, we will explore the art of incorporating fruit into your sentences, creating a
+        delightful and fruitful reading experience. So, let's dive right in!
+
+    </p>
+    <div id="text1">
+        section 1 : <br>
+        1. Fruit as a Symbol of Abundance and Variety
+        Fruit has long been associated with abundance and variety, making it a perfect metaphorical tool to enrich your
+        sentences. Just like a fruit basket overflowing with different colors and flavors, your writing can benefit from
+        the inclusion of fruit-related phrases. For instance, instead of saying "there were many options to choose
+        from," you can say "there were as many options as there are fruits in a tropical market."
+    </div>
+
+    <div id="text2">
+        section 2 : <br>
+        2. Using Fruit to Describe Sensory Experiences
+        One of the best ways to make your writing come alive is by appealing to the senses of your readers. Fruit
+        provides an excellent opportunity to describe sensory experiences vividly. By utilizing fruit-related
+        adjectives, you can paint a more colorful picture in your audience's mind. For example, instead of writing "the
+        sunset was beautiful," you can say "the sunset painted the sky with hues of mango orange and passion fruit
+        pink."
+    </div>
+    <div id="text3">
+        section 3 : <br>
+        3. Fruit as a Tool for Comparisons and Contrasts
+        Fruit can also be used to create interesting comparisons and contrasts, adding depth and complexity to your
+        sentences. By drawing parallels between different fruits and your subject matter, you can engage your readers'
+        imagination and evoke emotions. For instance, if you are writing about a person with a complex personality, you
+        could say "she was as mysterious as a pomegranate, with layers of intrigue waiting to be discovered."
+    </div>
+    <div id="text4">
+        section 4 : <br>
+        4. Fruit as a Symbol of Growth and Transformation
+        Incorporating fruit-related symbolism can enrich your writing, particularly when discussing themes of growth and
+        transformation. Fruits, with their life cycle from seed to ripened fruit, can represent the journey of personal
+        development. For instance, you might write "just like a seed grows into a luscious fruit, she blossomed into her
+        true self, radiating confidence and wisdom."
+
+
+    </div>
+    <div id="text5">
+        section 5 : <br>
+        5. Fruit as a Source of Inspiration
+        Lastly, let's not forget that fruit can serve as a great source of inspiration for your writing. By observing
+        the vibrant colors, textures, and tastes of different fruits, you can find new ways to describe the world around
+        you. Take a moment to savor a juicy strawberry or a tangy pineapple, and let their essence inspire your
+        creativity
+    </div>
+</body>
+
+</html>
+
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    border-style: dashed;
+    background-color: rgb(107, 8, 82);
+    color: rgb(101, 91, 238);
+    font-family: 'Kalnia', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Single Day', cursive;
+    font-family: 'Teko', sans-serif;
+}
+
+p {
+    border: 2px solid black;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#text1 {
+    margin: 20px;
+    padding: 20px;
+    color: brown;
+    border: 2px solid rgb(148, 10, 10);
+    border-radius: 20px;
+    text-decoration: underline;
+    font-family: 'Kalnia', serif;
+    background-color: beige;
+}
+
+#text2 {
+    margin: 20px;
+    padding: 20px;
+    color: blue;
+    border: 2px solid rgb(30, 5, 122);
+    border-radius: 20px;
+    border-style: dotted;
+    text-decoration: line-through;
+    font-family: 'Kalnia', serif;
+    font-family: 'Teko', sans-serif;
+
+}
+
+#text3 {
+    margin: 20px;
+    padding: 20px;
+    color: rgb(175, 93, 25);
+    border: 2px solid rgb(85, 5, 81);
+    border-radius: 20px;
+    text-decoration: overline;
+    font-family: 'Kalnia', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Teko', sans-serif;
+    background-color: aquamarine;
+
+}
+
+#text4 {
+    margin: 20px;
+    padding: 20px;
+    color: rgb(53, 153, 7);
+    border: 2px solid rgb(5, 65, 10);
+    border-radius: 120px;
+    border-style: double;
+}
+
+#text5 {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(219, 18, 112);
+    color: rgb(17, 175, 30);
+    border: 2px solid rgb(2, 32, 36);
+    border-radius: 20px;
+    border-style: dashed;
+    font-family: 'Kalnia', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Single Day', cursive;
+    font-family: 'Teko', sans-serif;
+
+}
