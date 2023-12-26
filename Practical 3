@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <title>Practical 3</title>
+</head>
+
+<body
+    background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW39uKwo0umS70pYuRpG5rDRREjKbuWAR0mlaI9E77ZUa7dUWMCzyD69aCFNAs_3jQZf8&usqp=CAU">
+    <h1>🎄 Meryy Christmas 🎄</h1>
+    <marquee behavior="" direction="right"><img
+            src="https://c.ndtvimg.com/2020-12/ur1a28k_santa-claus_625x300_24_December_20.jpg" alt="santa images">
+    </marquee><br><br>
+    <marquee id="msg" behavior="" direction="left">🎄 Wish you a Merry christmas 🎄</marquee>
+    <p>
+        Vedantu offers free tutorials on many things such as courses of all the grades, it offers tested material of
+        several competitive exams, and there are essays on the trending topics, festivals, and informational stuff
+        available on the Vedantu website. For whichever topic we offer information on, we aim to turn it hassle-free for
+        the students to get a complete list. Let’s get ready to read a detailed essay on the Christmas festival that is
+        celebrated all over the world by people of varied beliefs and religions. Here you go:
+    </p>
+
+    <p>
+        Christmas is celebrated every year on December 25. The festival marks the celebration of the birth anniversary
+        of Jesus Christ. Jesus Christ is worshipped as the Messiah of God in Christian Mythology. Hence, his birthday is
+        one of the most joyous ceremonies amongst Christians. Although the festival is mainly celebrated by the
+        followers of Christianity, it is one of the most enjoyed festivals all over the globe. Christmas symbolizes
+        merriment and love. It is celebrated with a lot of zeal and enthusiasm by everyone, no matter what religion they
+        follow. <br><br>
+    </p>
+    <p>
+        The season of Christmas that begins from Thanksgiving brings festivity and joy to everyone’s lives. Thanksgiving
+        is the day when people thank the almighty for blessing them with harvest and also show gratitude towards all the
+        good things and people around. On Christmas, people wish each other Merry Christmas and pray that the day takes
+        away all the negativity and darkness from people’s life. <br><br>
+    </p>
+    <p>
+        Christmas is a festival full of culture and tradition. The festival entails a lot of preparations. Preparations
+        for Christmas start early for most people. Preparations for Christmas involve a lot of things including buying
+        decorations, food items, and gifts for family members and friends. People usually wear white or red coloured
+        outfits on the day of Christmas. <br><br>
+    </p>
+    <p>
+        The celebration begins with decorating a Christmas tree. Christmas tree decoration and lighting are the most
+        important part of Christmas. The Christmas tree is an artificial or real pine tree that people adorn with
+        lights, artificial stars, toys, bells, flowers, gifts, etc. People also hide gifts for their loved ones.
+        Traditionally, gifts are hidden in socks under the tree. It is an old belief that a saint named Santa Claus
+        comes on the night of Christmas eve and hides presents for well-behaved kids. This imaginary figure brings a
+        smile to everyone’s face. <br><br>
+    </p>
+    <p>
+
+        Young children are especially excited about Christmas as they receive gifts and great Christmas treats. The
+        treats include chocolates, cakes, cookies, etc. People on this day visit churches with their families and
+        friends and light candles in front of the idol of Jesus Christ. Churches are decorated with fairy lights and
+        candles. People also create fancy Christmas cribs and adorn them with gifts, lights, etc. Children sing
+        Christmas carols and also perform various skits marking the celebration of the auspicious day. One of the famous
+        Christmas carols sung by all is “Jingle Bell, Jingle Bell, Jingle all the way”. <br><br>
+    </p>
+    <p>
+        On this day, people tell each other stories and anecdotes related to Christmas. It is believed that Jesus
+        Christ, the son of God, came to the Earth on this day to end people’s sufferings and miseries. His visit is
+        symbolic of goodwill and happiness and it is depicted through the visit of the wise men and the shepherds.
+        Christmas is, indeed, a magical festival that is all about sharing joy and happiness. For this reason, it is
+        also my most favorite festival. <br><br>
+    </p>
+    <p>
+        Apart from the religious beliefs, the festival is known as sharing gifts with family as well as friends. The
+        cute kids wait for the whole year to receive gifts from Santa. The craze of receiving gifts increases so much
+        that they get up at midnight and start asking what they are going to get from Santa. They share their wishes
+        with their parents and their parents try to accomplish them on the behalf of Santa. <br> <br>
+    </p>
+    <p>
+        The wheel of imparting knowledge to the students at Vedantu is designed in a manner that the students can grab
+        it without facing any sort of challenge. Vedantu has designed both a website and an application considering the
+        digital requirement of today’s era. Thus, you can either access the website or can download the application
+        today only! <br><br>
+    </p>
+    <p>
+        Christmas is a super-duper special day filled with laughter, twinkling lights, and the warmth of love. It's like
+        a magical adventure where everyone gets to be a part of something incredible! <br><br>
+
+    </p>
+    <p>
+        Imagine waking up on Christmas morning, and the air is filled with the sweet scent of gingerbread cookies and
+        the sound of jingle bells. It's a day when even the snowflakes seem to dance with joy. So, what makes Christmas
+        so special? <br>
+        Firstly, let's talk about Santa Claus! He's the jolly old man with a big, white beard who lives at the North
+        Pole. Santa and his team of reindeer travel all around the world on Christmas Eve, delivering presents to good
+        boys and girls. Can you believe he squeezes down chimneys to leave gifts under the Christmas tree? It's like a
+        magical game of hide-and-seek with Santa! <br><br>
+
+    </p>
+    <p>
+        Now, speaking of trees, have you ever seen a Christmas tree? They are like giant, sparkling towers of happiness.
+        Families decorate them with shiny baubles, twinkling lights, and a sparkly star on top. It's like turning your
+        living room into a festive wonderland! <br><br>
+
+    </p>
+    <p>
+        And oh, let's not forget about the delicious Christmas dinner! Families gather around the table to enjoy a feast
+        of roast turkey, crispy potatoes, and yummy mince pies, telling stories. It's a time for sharing and caring,
+        just like Santa does. <br><br>
+
+    </p>
+    <p>
+        Christmas is not just about gifts and decorations; it's also about spending time with family and friends.
+        Whether you're playing in the snow, singing carols, or wrapping presents, the joy of Christmas spreads like a
+        warm, cosy blanket. <br><br>
+    </p>
+    <p>
+        But wait, there's more! On Christmas morning, you might find stockings hanging by the fireplace. These are
+        special socks where Santa leaves little surprises. It's like a treasure hunt right in your own home! <br><br>
+
+    </p>
+
+    <p> In the end, Christmas is a day where kindness and joy fill the air. It's a time to be grateful for the people we
+        love and the magical moments we share. So, let's celebrate this wonderful day with laughter, love, and a
+        sprinkle of Christmas magic! <br><br>
+
+        Merry Christmas, everyone! <br>
+    </p>
+</body>
+
+</html>
+
+//index3.css
+body {
+    background-color: greenyellow;
+    font-size: 18px;
+    border: 2px bold black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    color: red;
+    background-color: greenyellow;
+    padding: 15px;
+    font-weight: bold;
+    font-family: Rubik Doodle Shadow;
+}
+
+#msg {
+    border: 2px solid purple;
+    background-color: rgb(157, 231, 231);
+    padding: 5px;
+    color: blue;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+p {
+    border: 2px solid blue;
+    color: red;
+    text-align: justify;
+    font-size: 50px;
+    border-radius: 12px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-indent: 20px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
