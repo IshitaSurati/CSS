@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practical 4</title>
+    <link rel="stylesheet" href="index4.css">
+    <link rel="icon" href="./favicon-16x16.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="icon">
+            <img src="./icons8-html-48.png" alt="Icon" width="50" height="50">
+        </div>
+        <div class="text">
+            <h1>HyperText Markup Language</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="icon">
+            <img src="./icons8-css-48.png" alt="Icon" width="50" height="50">
+        </div>
+        <div class="text">
+            <h1>Cascading Style Sheets</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="icon">
+            <img src="./icons8-javascript-48.png" alt="Icon" width="50" height="50">
+        </div>
+        <div class="text">
+            <h1>JavaScript</h1>
+        </div>
+    </div>
+</body>
+
+</html>
