@@ -64,11 +64,11 @@
             <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/511Fp8gCPrL._SX522_.jpg" alt="image"
                 id="img2">
         </div>
-        <div class="box2">
-            <p id="text1">SALON SMOOTH HAIR </p>
+        <div class="box4">
+            <p id="text1">Smooth Straight Hair </p>
         </div>
         <div id="text2">
-            MATRIX Opti.Care Professional Shampoo for ANTI-FRIZZ Shampoo | For Salon Smooth, Straight hair | (200ml)
+            MATRIX Opti.Care Professional Shampoo for ANTI-FRIZZ | 200ml
             <br>
             ⭐ 4.4/5 <br>
             <p id="price">RS. 390</p><br>
@@ -82,17 +82,17 @@
     <!-- 4st -->
     <div class="contioner">
         <div class="box1">
-            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRNLiIa8klOKJ9vjzTlyHlL3pzVTxFIzT0RD7o9scEgv8FQXUcGFHlGk1hlAQmBWS8aRL01F9WKy1xVVFl9FmIGLAhIsTsRFaULicrCJb286VMWKavSfGzFGg"
-                alt="image" id="img">
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41JInF+tDZL._SY300_SX300_.jpg"
+                alt="image" id="img2">
         </div>
-        <div class="box2">
+        <div class="box5">
             <p id="text1">SALON SMOOTH HAIR </p>
         </div>
         <div id="text2">
-            Tresemme Keratin Smooth With Argan Oil Shampoo | 1000ml <br>
+            L'Oreal Paris Moisture Filling Shampoo, With Hyaluronic| 1000ml <br>
             ⭐ 4.4/5 <br>
-            <p id="price">RS. 784</p>
-            <p id="mrp">Rs.1120</p>
+            <p id="price">RS. 862</p>
+            <p id="mrp">Rs.1149</p>
             <p id="off">30%</p>
         </div>
         <div id="icon">
@@ -103,3 +103,144 @@
 </body>
 
 </html>
+
+/*index6.css*/
+body {
+    background-image: url(https://www.evanik.com/wp-content/uploads/2022/09/nykaa-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    color: rgb(189, 3, 96);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.contioner {
+    border: 2px solid black;
+    height: 700px;
+    width: 500px;
+    display: inline-block;
+    margin: 50px;
+    background-color: beige;
+}
+
+.box1 {
+    display: inline-block;
+    border: 1px solid grey;
+    height: 500px;
+    width: 250px;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.box2 {
+    display: inline-block;
+    border: 1px solid grey;
+    height: 400px;
+    width: 100px;
+    margin: 20px;
+    background-color: red;
+    border-radius: 0 0 30px;
+}
+
+#img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#text1 {
+    writing-mode: sideways-lr;
+    text-orientation: sideways;
+    white-space: nowrap;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 10px;
+    color: white;
+}
+
+#mrp {
+    text-decoration: line-through;
+    display: inline;
+    font-weight: 10px;
+    color: #302e2e;
+}
+
+#price {
+    display: inline;
+    font-weight: bold;
+}
+
+#off {
+    display: inline;
+    color: red;
+}
+
+#text2 {
+    margin: 20px;
+}
+
+#icon {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: inline;
+}
+
+#button {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(243, 5, 144);
+    color: white;
+    font-size: 20px;
+}
+
+#heart {
+    height: 50px;
+    width: 100px;
+}
+
+#img2 {
+    height: 450px;
+    width: 250px;
+    margin-top: 10px;
+    ;
+    padding: 10px 0px;
+}
+
+.box3 {
+    display: inline-block;
+    border: 1px solid grey;
+    height: 400px;
+    width: 100px;
+    margin: 20px;
+    background-color: rgb(29, 32, 206);
+    border-radius: 0 0 30px;
+    text-transform: uppercase;
+}
+
+.box4 {
+    display: inline-block;
+    border: 1px solid grey;
+    height: 400px;
+    width: 100px;
+    margin: 20px;
+    background-color: rgb(241, 144, 34);
+    border-radius: 0 0 30px;
+    text-transform: uppercase;
+}
+
+.box5 {
+    display: inline-block;
+    border: 1px solid grey;
+    height: 400px;
+    width: 100px;
+    margin: 20px;
+    background-color: rgb(212, 57, 192);
+    border-radius: 0 0 30px;
+    text-transform: uppercase;
+}
