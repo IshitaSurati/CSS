@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 6</title>
+    <link rel="stylesheet" href="./index6.css">
+    <link rel="icon" href="./favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>NYKAA</h1>
+    </header>
+    <!-- 1st -->
+    <div class="contioner">
+        <div class="box1">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRNLiIa8klOKJ9vjzTlyHlL3pzVTxFIzT0RD7o9scEgv8FQXUcGFHlGk1hlAQmBWS8aRL01F9WKy1xVVFl9FmIGLAhIsTsRFaULicrCJb286VMWKavSfGzFGg"
+                alt="image" id="img">
+        </div>
+        <div class="box2">
+            <p id="text1">SALON SMOOTH HAIR </p>
+        </div>
+        <div id="text2">
+            Tresemme Keratin Smooth With Argan Oil Shampoo | 1000ml <br>
+            ⭐ 4.4/5 <br>
+            <p id="price">RS. 784</p>
+            <p id="mrp">Rs.1120</p>
+            <p id="off">30%</p>
+        </div>
+        <div id="icon">
+            <input type="button" value=" 🤍 " alt="heart" id="heart">
+            <input type="button" name="Add to Cart" id="button" value="Add to Cart +">
+        </div>
+    </div>
+    <!-- 2nd -->
+    <div class="contioner">
+        <div class="box1">
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41DVwYcxp4L._SX300_SY300_QL70_FMwebp_.jpg"
+                alt="image" id="img2">
+        </div>
+        <div class="box3">
+            <p id="text1">Hair Fall Defence </p>
+        </div>
+        <div id="text2">
+            Tresemme Hair Fall Defence Shampoo | 1000ml <br>
+            ⭐ 4.4/5 <br>
+            <p id="price">RS. 896</p>
+            <p id="mrp">Rs.1120</p>
+            <p id="off">20%</p>
+        </div>
+        <div id="icon">
+            <input type="button" value=" 🤍 " alt="heart" id="heart">
+            <input type="button" name="Add to Cart" id="button" value="Add to Cart +">
+        </div>
+    </div>
+    <!-- 3st -->
+    <div class="contioner">
+        <div class="box1">
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/511Fp8gCPrL._SX522_.jpg" alt="image"
+                id="img2">
+        </div>
+        <div class="box2">
+            <p id="text1">SALON SMOOTH HAIR </p>
+        </div>
+        <div id="text2">
+            MATRIX Opti.Care Professional Shampoo for ANTI-FRIZZ Shampoo | For Salon Smooth, Straight hair | (200ml)
+            <br>
+            ⭐ 4.4/5 <br>
+            <p id="price">RS. 390</p><br>
+
+        </div>
+        <div id="icon">
+            <input type="button" value=" 🤍 " alt="heart" id="heart">
+            <input type="button" name="Add to Cart" id="button" value="Add to Cart +">
+        </div>
+    </div>
+    <!-- 4st -->
+    <div class="contioner">
+        <div class="box1">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRNLiIa8klOKJ9vjzTlyHlL3pzVTxFIzT0RD7o9scEgv8FQXUcGFHlGk1hlAQmBWS8aRL01F9WKy1xVVFl9FmIGLAhIsTsRFaULicrCJb286VMWKavSfGzFGg"
+                alt="image" id="img">
+        </div>
+        <div class="box2">
+            <p id="text1">SALON SMOOTH HAIR </p>
+        </div>
+        <div id="text2">
+            Tresemme Keratin Smooth With Argan Oil Shampoo | 1000ml <br>
+            ⭐ 4.4/5 <br>
+            <p id="price">RS. 784</p>
+            <p id="mrp">Rs.1120</p>
+            <p id="off">30%</p>
+        </div>
+        <div id="icon">
+            <input type="button" value=" 🤍 " alt="heart" id="heart">
+            <input type="button" name="Add to Cart" id="button" value="Add to Cart +">
+        </div>
+    </div>
+</body>
+
+</html>
