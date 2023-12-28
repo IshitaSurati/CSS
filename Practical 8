@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index8.css">
+    <link rel="icon" href="./icons8-favorite-cart-48.png">
+    <title>Practical 8</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="box1">
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51ZNhxm+jfS._SY450_.jpg" alt="img"
+                id="img">
+            <p id="text1">nxntron Earbuds Ear pron 3rd genration high bass Clear Sound Bluetooth Headphone </p><br>
+            <p id="text2">-70% </p>
+            <p id="text3">₹599</p><br>
+            <p id="text4">M.R.P.: ₹1,999</p> <br>
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(2).png" alt="img" id="star">
+            <img src="./star(2).png" alt="img" id="star"><br>
+            <input type="button" value="Buy Now" id="button1">
+        </div>
+        <div class="box1">
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71uUhCRtaNL._SL1500_.jpg" alt="img"
+                id="img">
+            <p id="text1">Neumann NDH 20 closed-back studio headphone for monitoring, editing, and mixing</p><br>
+            <p id="text2">-50% </p>
+            <p id="text3">₹999</p><br>
+            <p id="text4">M.R.P.: ₹1,500</p> <br>
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(2).png" alt="img" id="star"><br>
+            <input type="button" value="Buy Now" id="button2">
+        </div>
+        <div class="box1">
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61oatFNX4BL._SL1500_.jpg" alt="img"
+                id="img">
+            <p id="text1">Fire-Boltt Ninja Call Pro Smart Watch Dual Chip Bluetooth Calling | Smart Watch</p><br>
+            <p id="text2">-93% </p>
+            <p id="text3">₹1,299</p><br>
+            <p id="text4">M.R.P.: ₹17,999</p> <br>
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(2).png" alt="img" id="star">
+            <img src="./star(2).png" alt="img" id="star"><br>
+            <input type="button" value="Buy Now" id="button3">
+        </div>
+        <div class="box1">
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81L6069AwHL._SL1500_.jpg" alt="img"
+                id="img">
+            <p id="text1">Redmi 13C 5G(Starlight Black,8GB RAM,256GB Storage)|MediaTek Dimensity 6100+|90Hz Display</p>
+            <br>
+            <p id="text2">-19% </p>
+            <p id="text3">₹14,499</p><br>
+            <p id="text4">M.R.P.: ₹17,999</p> <br>
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star">
+            <img src="./star(3).png" alt="img" id="star"><br>
+            <input type="button" value="Buy Now" id="button4">
+        </div>
+    </div>
+</body>
+
+</html>
+
+.content {
+    height: fit-content;
+    width: fit-content;
+}
+
+.box1 {
+    border: 1px solid grey;
+    height: 535px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgb(231, 222, 222);
+    text-align: center;
+    display: inline-block;
+}
+
+#img {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+#text1 {
+    margin-left: 10px;
+}
+
+p {
+    display: inline;
+}
+
+#text2 {
+    color: red;
+}
+
+#text3 {
+    font-weight: bolder;
+}
+
+#text4 {
+    text-decoration: line-through;
+}
+
+#star {
+    height: 30px;
+}
+
+#button1 {
+    margin-top: 40px;
+    margin-left: 0;
+    height: 52px;
+    width: 351px;
+    border-radius: 0 0 15px 15px;
+    background-color: rgb(4, 86, 88);
+    color: white;
+    font-size: 20px;
+}
+
+#button2 {
+    margin-top: 40px;
+    margin-left: 0;
+    height: 52px;
+    width: 351px;
+    border-radius: 0 0 15px 15px;
+    background-color: rgb(106, 106, 201);
+    color: white;
+    font-size: 20px;
+}
+
+#button3 {
+    margin-top: 40px;
+    margin-left: 0;
+    height: 52px;
+    width: 351px;
+    border-radius: 0 0 15px 15px;
+    background-color: rgb(25, 25, 128);
+    color: white;
+    font-size: 20px;
+}
+
+#button4 {
+    margin-top: 40px;
+    margin-left: 0;
+    height: 52px;
+    width: 351px;
+    border-radius: 0 0 15px 15px;
+    background-color: rgb(19, 19, 20);
+    color: white;
+    font-size: 20px;
+}
