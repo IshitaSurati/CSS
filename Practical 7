@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
+    <title>Practical 7</title>
+</head>
+
+<body>
+    <div id="box">
+        <header>
+            She's Footwear
+        </header>
+        <div id="box1">
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71RlOgFT-wL._SY625_.jpg" alt="img"
+                id="img1">
+            <img src="./icons8-heart-64.png" alt="img" id="heart">
+            <p id="text1">$990.00</p>
+            <img src="./icons8-favorite-cart-48.png" alt="icon" id="cart"><br>
+            <p id="text2">$749.00</p>
+            <input type="button" value="➕ Add to cart" id="button">
+        </div>
+
+        <div id="box2">
+            <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/e47d6545d8f1cfc990d317e543ce7a16.jpg?imageView2/2/w/500/q/60/format/webp"
+                alt="img" id="img1">
+            <img src="./icons8-heart-64.png" alt="img" id="heart">
+            <p id="text1">$900.00</p>
+            <img src="./icons8-favorite-cart-48.png" alt="icon" id="cart"><br>
+            <p id="text2">$879.00</p>
+            <input type="button" value="➕ Add to cart" id="button">
+
+        </div>
+
+        <div id="box3">
+            <img src="https://5.imimg.com/data5/ECOM/Default/2022/12/NT/DU/KE/91262661/155ae585-07a1-4882-8913-e4364e1f38e7-250x250.jpg"
+                alt="img" id="img1">
+            <img src="./icons8-heart-64.png" alt="img" id="heart">
+            <p id="text1">$1000.00</p>
+            <img src="./icons8-favorite-cart-48.png" alt="icon" id="cart"><br>
+            <p id="text2">$699.00</p>
+            <input type="button" value="➕ Add to cart" id="button">
+
+        </div>
+
+        <div id="box4">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20231218/8upZ/65804752afa4cf41f5d62408/-473Wx593H-466468074-cream-MODEL.jpg"
+                alt="img" id="img1">
+            <img src="./icons8-heart-64.png" alt="img" id="heart">
+            <p id="text1">$790.00</p>
+            <img src="./icons8-favorite-cart-48.png" alt="icon" id="cart"><br>
+            <p id="text2">$549.00</p>
+            <input type="button" value="➕ Add to cart" id="button">
+
+        </div>
+        <div id="box5">
+            <img src="https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dwacc777e0/images/hires/SS22/FW22ACCFW14WHT%20(3).jpg?sw=400&sh=600&sm=fit"
+                alt="img" id="img1">
+            <img src="./icons8-heart-64.png" alt="img" id="heart">
+            <p id="text1">$1990.00</p>
+            <img src="./icons8-favorite-cart-48.png" alt="icon" id="cart"><br>
+            <p id="text2">$849.00</p>
+            <input type="button" value="➕ Add to cart" id="button">
+
+        </div>
+        <div id="box6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTElZBsF8bcw0H51W0SYBL9Q5i4c-wrJPAepK1RJVIYj-1K1anI7NxBMLKMqgjDAsCJROw&usqp=CAU"
+                alt="img" id="img1">
+            <img src="./icons8-heart-64.png" alt="img" id="heart">
+            <p id="text1">$2000.00</p>
+            <img src="./icons8-favorite-cart-48.png" alt="icon" id="cart"><br>
+            <p id="text2">$1500.00</p>
+            <input type="button" value="➕ Add to cart" id="button">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
