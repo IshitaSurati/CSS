@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./PR1.css">
+    <title>PR 1</title>
+</head>
+
+<body>
+    <nav id="nav-box">
+        <img src="https://w7.pngwing.com/pngs/433/704/png-transparent-food-heart-computer-icons-donation-love-text-recipe.png"
+            alt="logo" id="logo">
+        <div id="nav">
+            <a href="#"><img src="./home.png" alt="icon" id="icon">Home</a>
+            <a href="#"><img src="./telephone.png" alt="icon" id="icon">ContactUs</a>
+            <a href="#"><img src="./about.png" alt="icon" id="icon">About</a>
+            <a href="#"><img src="./help.png" alt="icon" id="icon">Login</a>
+            <a href="#"><img src="./user.png" alt="icon" id="icon">SignUp</a>
+    </nav>
+    <div class="ParentBox">
+        <div class="box1">
+            <img src="https://content.jdmagicbox.com/comp/shillong/i4/9999px364.x364.190529213130.a8i4/catalogue/pizza-fast-food-shillong-fast-food-delivery-services-o36cb6iky8.jpg?clr="
+                alt="img" id="img">
+            <h3>Pizza</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrCjQaFkttBepPEa2C1mLd6huoAKwpxUJtYA&usqp=CAU"
+                alt="img" id="img">
+            <h3>Pasta</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgwEzw_qLIfNJldIcFqstJlK6sDXclH7nrrg&usqp=CAU"
+                alt="img" id="img">
+            <h3>Burger</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://content.jdmagicbox.com/comp/azamgarh/w9/9999p5252.5252.190717000958.b9w9/catalogue/ansh-fast-food-azamgarh-fast-food-7hn09av3hk.jpg?clr="
+                alt="img" id="img">
+            <h3>Paneer Wraps</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://b.zmtcdn.com/data/dish_photos/49d/fd1c2451fa5123791b5b703901e1c49d.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+                alt="img" id="img">
+            <h3>Grill Sandwitch</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8gydkTjJKyq3sHfXZEScer3PdqE6Q5UZTGQ&usqp=CAU"
+                alt="img" id="img">
+            <h3>Frise</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://5.imimg.com/data5/CX/FS/GLADMIN-35109121/golgappa-250x250.jpg" alt="img" id="img">
+            <h3>Pani Puri</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://b.zmtcdn.com/data/pictures/6/19756426/033fbcdf658d4ad38d4f59f082c3e053_featured_v2.jpg"
+                alt="img" id="img">
+            <h3>Samosa</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/IndianStreetFood_20190103000803.jpg"
+                alt="img" id="img">
+            <h3>Paw Bhaji</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2033%2Ftrend20180920125236.jpg"
+                alt="img" id="img">
+            <h3>Dhosa</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-cde1761f808c0d6e82612853db1c7455-lq" alt="img" id="img">
+            <h3>Idli</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://www.mensjournal.com/.image/t_share/MTk4NDU0MjcyNDkxMjY3NjMw/chick-fil-a-grilled-market-salad-best-high-protein-fast-food.jpg"
+                alt="img" id="img">
+            <h3>Salad</h3>
+            <button>Order Now</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #d4dac9;
+}
+
+#nav-box {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icon {
+    height: 18px;
+}
+
+#logo {
+    height: 40px;
+}
+
+#nav {
+    float: right;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#nav a:hover {
+    background-color: #555;
+}
+
+div {
+    display: block;
+}
+
+.ParentBox {
+    height: fit-content;
+}
+
+.box1 {
+    border: 1px solid rgb(128, 126, 126);
+    height: 340px;
+    width: 240px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px rgb(231, 222, 222);
+    border-radius: 8px 0 8px 0;
+    display: inline-block;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    color: blueviolet;
+    background-color: burlywood;
+    font-size: 18px;
+}
+
+#img {
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
