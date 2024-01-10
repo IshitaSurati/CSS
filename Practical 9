@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index9.css">
+    <title>Transform</title>
+</head>
+
+<body>
+
+
+    <div>
+        <h1>Translate</h1>
+        <div id="box1">
+            <img src="https://emojiisland.com/cdn/shop/products/Happy_Emoji_Icon_5c9b7b25-b215-4457-922d-fef519a08b06_large.png?v=1571606090"
+                alt="img" id="img">
+        </div>
+    </div>
+
+    <div>
+        <h1>Rotate</h1>
+        <div id="box2">
+            <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f602.png" alt="img"
+                id="img">
+        </div>
+    </div>
+
+    <div>
+        <h1>Scale</h1>
+        <div id="box3">
+            <img src="https://emojiisland.com/cdn/shop/products/Heart_Eyes_Emoji_large.png?v=1571606037" alt="img"
+                id="img">
+        </div>
+    </div>
+
+    <div>
+        <h1>Skew</h1>
+        <div id="box4">
+            <img src="https://emojiisland.com/cdn/shop/products/Flushed_Face_Emoji_large.png?v=1571606037" alt="img"
+                id="img">
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    padding-left: 150px;
+    color: darkmagenta;
+    font-size: 40px;
+    background-color: beige;
+}
+
+#img {
+    height: 200px;
+    width: 200px;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+    border: 2px solid rgb(127, 127, 131);
+    background-color: rgb(222, 222, 235);
+    color: white;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#box1:hover {
+    transform: translate(20px);
+}
+
+#box2:hover {
+    transform: rotate(20deg);
+}
+
+#box3:hover {
+    transform: scale(1.1);
+}
+
+#box4:hover {
+    transform: skew(20deg);
+}
