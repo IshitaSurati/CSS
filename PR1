@@ -85,9 +85,27 @@
             <button>Order Now</button>
         </div>
         <div class="box1">
-            <img src="https://www.mensjournal.com/.image/t_share/MTk4NDU0MjcyNDkxMjY3NjMw/chick-fil-a-grilled-market-salad-best-high-protein-fast-food.jpg"
-                alt="img" id="img">
+            <img src="https://b.zmtcdn.com/data/pictures/4/18763994/99e504657f2bb13f67711f4f220bcb38.jpg" alt="img"
+                id="img">
             <h3>Salad</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://b.zmtcdn.com/data/dish_photos/bcc/43ac5094c0dadef06975ebc88556fbcc.jpg" alt="img"
+                id="img">
+            <h3>Noodles</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://b.zmtcdn.com/data/pictures/1/18739011/978ed1e998518948130ab1062407cf95.jpg" alt="img"
+                id="img">
+            <h3>Momos</h3>
+            <button>Order Now</button>
+        </div>
+        <div class="box1">
+            <img src="https://b.zmtcdn.com/data/pictures/chains/2/20169752/3c5f225ce7fee3b7ddaf222c71e92c5e.jpg"
+                alt="img" id="img">
+            <h3>Fried Rice</h3>
             <button>Order Now</button>
         </div>
     </div>
@@ -95,11 +113,12 @@
 
 </html>
 
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Arial", sans-serif;
-    background-color: #d4dac9;
+    background-color: #f2f5ec;
 }
 
 #nav-box {
@@ -113,6 +132,7 @@ body {
 
 #icon {
     height: 18px;
+    margin-right: 10px;
 }
 
 #logo {
@@ -132,7 +152,7 @@ body {
 }
 
 #nav a:hover {
-    background-color: #555;
+    background-color: #5739fc;
 }
 
 div {
@@ -147,7 +167,7 @@ div {
     border: 1px solid rgb(128, 126, 126);
     height: 340px;
     width: 240px;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
     box-shadow: 10px 10px rgb(231, 222, 222);
     border-radius: 8px 0 8px 0;
@@ -156,9 +176,9 @@ div {
 
 button {
     height: 40px;
-    width: 100px;
-    color: blueviolet;
-    background-color: burlywood;
+    width: 200px;
+    color: rgb(247, 243, 250);
+    background-color: rgb(36, 35, 33);
     font-size: 18px;
 }
 
