@@ -1,0 +1,413 @@
+<!-- HOME PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Project</title>
+    <link rel="stylesheet" href="/CSS/LivePrStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="box">
+            <div id="box-1">
+                My Page
+            </div>
+            <div id="box-2">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">content</a>
+                <a href="/CSS/signup.html" target="_blank">SignUp</a>
+                <a href="/CSS/login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+        <main>
+            <div>
+                Welcome to My Page <br>
+                For More Details SignUp... <br>
+                <div id="button">
+                    <a href="/CSS/signup.html" target="_blank">SignUp</a>
+                    <a href="/CSS/login.html">Login</a>
+                </div>
+            </div>
+        </main>
+</body>
+</html>
+
+/*CSS*/
+/* nav */
+body {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5f0f5c9c0176c64a4584b96a/1595457361608-NY8YK6ZECOWC9J8JW9QT/About-Banner.jpg?format=2500w);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 1px solid gray;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+#box-1 {
+    height: 100%;
+    width: 200px;
+    font-family: 'Sevillana', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(17, 21, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#box-2 {
+    height: 100%;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 200px;
+}
+
+#box-2 a {
+    padding: 20px;
+    width: 500px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 25px;
+    color: rgb(17, 21, 245);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#box-2>a:hover {
+    background-color: rgb(140, 140, 248);
+    color: white;
+}
+
+/* main */
+main {
+    color: white;
+    height: 2000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main>div {
+    position: relative;
+    left: 900px;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    font-size: 150px;
+    margin: 300px;
+}
+
+#button a {
+    font-size: 80px;
+    border: 1px solid white;
+    height: 100px;
+    width: 150px;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#button a:hover {
+    color: blue;
+}
+
+
+<!-- SIGNUP PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Project</title>
+  <link rel="stylesheet" href="/CSS/LivePrStyle.css">
+  <link rel="stylesheet" href="/CSS/sgpage.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Titillium+Web:wght@200&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Playfair+Display:wght@500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div class="box">
+      <div id="box-1">
+        My Page
+      </div>
+      <div id="box-2">
+        <a href="/CSS/LivePr.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">content</a>
+        <a href="/CSS/signup.html" target="_blank">SignUp</a>
+        <a href="/CSS/login.html">Login</a>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div id="Parent-box">
+      <div class="container">
+        <h1>Sign Up</h1>
+        <p>create an account.</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required class="psw">
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required class="psw">
+        <div class="button">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Create</button>
+        </div>
+      </div>
+      </form>
+      <div id="link">
+        Already have an account? <a href="/CSS/login.html">Login</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+/*CSS*/
+/* Sign Up Page */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2000px;
+}
+
+#Parent-box {
+    border: 3px solid rgb(253, 251, 251);
+    height: fit-content;
+    width: fit-content;
+    font-size: 70px;
+    color: white;
+    padding: 20px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+.psw {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #fcf8f8;
+    font-size: 30px;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    width: 60%;
+    height: 90px;
+    font-size: 50px;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+#link {
+    text-align: center;
+}
+
+#link>a {
+    color: white;
+}
+
+
+<!-- LOGIN PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Project</title>
+    <link rel="stylesheet" href="/CSS/LivePrStyle.css">
+    <link rel="stylesheet" href="/CSS/sgpage.css">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Playfair+Display:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="box">
+            <div id="box-1">
+                My Page
+            </div>
+            <div id="box-2">
+                <a href="/CSS/LivePr.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">content</a>
+                <a href="/CSS/signup.html" target="_blank">SignUp</a>
+                <a href="/CSS/login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div id="Parent-box">
+            <div class="container">
+                <h1>LogIn</h1>
+                <p>Login your account</p>
+                <hr>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required class="psw">
+
+                <div class="button">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">LogIn</button>
+                </div>
+            </div>
+            </form>
+            <div id="link">
+                create new account? <a href="/CSS/signup.html">SignUp</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+/*CSS*/
+/* LOGIN Up Page */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2000px;
+}
+
+#Parent-box {
+    border: 3px solid rgb(253, 251, 251);
+    height: fit-content;
+    width: fit-content;
+    font-size: 70px;
+    color: white;
+    padding: 20px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+.psw {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #fcf8f8;
+    font-size: 30px;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    width: 60%;
+    height: 90px;
+    font-size: 50px;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+#link {
+    text-align: center;
+}
+
+#link>a {
+    color: white;
+}
