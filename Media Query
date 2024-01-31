@@ -282,12 +282,11 @@ float: none;
     height: fit-content;
     display: grid !important;
     grid-template-columns: repeat(7,1fr);
-    /* grid-template-rows: repeat(3,1fr); */
     gap: 40px;
 }
 .box1 {
     border: 1px solid rgb(128, 126, 126);
-    height: 440px;
+    height: fit-content;
     width: 1fr;
     margin: 10px;
     text-align: center;
@@ -310,26 +309,38 @@ button {
 }
 @media (max-width: 769px) {
     .ParentBox {
-        height: fit-content;
+        height:auto;
         display: grid !important;
         grid-template-columns: repeat(1,1fr);
         gap: 10px;
     }
+    #img {
+        height: 150px;
+        width: 150px;
+    }
 }
 @media (min-width: 769px) and (max-width:1200px){
     .ParentBox {
-        height: fit-content;
+        height: auto;
         display: grid !important;
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
     }
+    #img {
+        height: 200px;
+        width: 200px;
+    }
 }
 @media (min-width: 1201px) and (max-width:1800px){
     .ParentBox {
-        height: fit-content;
+        height: auto;
         display: grid !important;
         grid-template-columns: repeat(3,1fr);
         gap: 30px;
+    }
+    #img {
+        height: 200px;
+        width: 200px;
     }
 }
 /* footer */
