@@ -347,7 +347,6 @@ footer{
     background-color:rgb(206, 200, 192);
     text-align: center;
     height: 300px;
-    padding: 10px;
 }
 input[type=text],input[type=email]{
     width: 500px;
